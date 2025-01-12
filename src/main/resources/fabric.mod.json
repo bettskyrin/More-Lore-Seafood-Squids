@@ -3,15 +3,15 @@
 	"id": "moloss",
 	"version": "${version}",
 	"name": "More Lore: Seafood Squids",
-	"description": "This is an example description! Tell everyone what your mod is about!",
+	"description": "Add a splash of flavor to your world by fishing for some calamari!",
 	"authors": [
-		"Me!"
+		"Kyrin Betts"
 	],
 	"contact": {
-		"homepage": "https://fabricmc.net/",
-		"sources": "https://github.com/FabricMC/fabric-example-mod"
+		"sources": "https://github.com/bettskyrin/More-Lore-Seafood-Squids",
+		"issues": "https://github.com/bettskyrin/More-Lore-Seafood-Squids/issues"
 	},
-	"license": "CC0-1.0",
+	"license": "GPL-3.0",
 	"icon": "assets/moloss/icon.png",
 	"environment": "*",
 	"entrypoints": {
@@ -27,8 +27,5 @@
 		"minecraft": "~1.21.4",
 		"java": ">=21",
 		"fabric-api": "*"
-	},
-	"suggests": {
-		"another-mod": "*"
 	}
 }
