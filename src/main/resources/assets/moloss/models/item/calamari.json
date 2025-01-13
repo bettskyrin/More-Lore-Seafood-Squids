@@ -1,6 +1,6 @@
 {
   "parent": "minecraft:item/generated",
   "textures": {
-  "layer0": "moloss:item/calamari"
+    "layer0": "moloss:item/calamari"
   }
 }
