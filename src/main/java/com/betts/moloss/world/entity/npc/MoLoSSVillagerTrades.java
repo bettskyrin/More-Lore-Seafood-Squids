@@ -16,7 +16,7 @@ public class MoLoSSVillagerTrades {
         TradeOfferHelper.registerVillagerOffers(VillagerProfession.FISHERMAN, 4, factories -> {
             factories.add((entity, randomSource) -> new MerchantOffer(
                     new ItemCost(MoLoSSItems.CALAMARI, 15), Optional.empty(), new ItemStack(Items.EMERALD),16, 20, 0.05F
-            )); // FIXME
+            ));
         });
 
     }

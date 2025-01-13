@@ -5,7 +5,7 @@
 	"name": "More Lore: Seafood Squids",
 	"description": "Add a splash of flavor to your world by fishing for some calamari!",
 	"authors": [
-		"Kyrin Betts"
+		"Kyrin Betts (Kr1s1s)"
 	],
 	"contact": {
 		"sources": "https://github.com/bettskyrin/More-Lore-Seafood-Squids",
@@ -17,6 +17,9 @@
 	"entrypoints": {
 		"main": [
 			"com.betts.moloss.MoreLoreSeafoodSquids"
+		],
+		"fabric-datagen": [
+			"com.betts.moloss.tags.MoLoSSTagGenerator"
 		]
 	},
 	"depends": {
