@@ -1,6 +1,7 @@
 package com.betts.moloss;
 
 import com.betts.moloss.data.loot.packs.MoLoSSLoot;
+import com.betts.moloss.world.entity.npc.MoLoSSVillagerTrades;
 import com.betts.moloss.world.item.MoLoSSItems;
 import net.fabricmc.api.ModInitializer;
 
@@ -16,5 +17,6 @@ public class MoreLoreSeafoodSquids implements ModInitializer {
 		LOGGER.info("More Lore: Seafood Squids initializing!");
 		MoLoSSItems.register();
 		MoLoSSLoot.modifyLoot();
+		MoLoSSVillagerTrades.register();
 	}
 }
