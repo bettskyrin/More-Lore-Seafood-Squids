@@ -22,7 +22,7 @@ public class MoLoSSItems {
 
     public static void register() {
         ItemGroupEvents.modifyEntriesEvent(CreativeModeTabs.FOOD_AND_DRINKS).register(entries -> {
-            entries.addAfter(Items.PUFFERFISH, MoLoSSItems.CALAMARI);
+            entries.addBefore(Items.COD, MoLoSSItems.CALAMARI);
             entries.addAfter(MoLoSSItems.CALAMARI, MoLoSSItems.COOKED_CALAMARI);
         } );
     }
