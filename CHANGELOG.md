@@ -10,7 +10,7 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 - Added Calamari
   - Can be fed to wolves and cats.
   - Can be gifted by grateful fisherman villagers
-  - Can be traded to fisherman villagers
+  - Can be traded to expert fisherman villagers
   - Can be found in fisher cottage chests
 - Added Cooked Calamari
   - Can be fed to wolves
