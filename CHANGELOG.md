@@ -6,7 +6,7 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 ## [1.0.1] - 1/13/2025
 ### Fixed
 
-- Fixed saturation value to reflected intended levels
+- Fixed saturation value to reflect intended levels
   - Saturation for cooked calamari has been decreased dramatically
   - Saturation for calamari has been decreased
 ## [1.0.0] - 1/13/2025
