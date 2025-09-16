@@ -17,7 +17,11 @@ public class MoLoSSItems {
     public static final Item COOKED_CALAMARI = registerItem(itemID("cooked_calamari"), Item::new, new Item.Properties().food(MoLoSSFoods.COOKED_CALAMARI));
 
     public static ResourceKey<Item> itemID(String string) {
-        return ResourceKey.create(Registries.ITEM, ResourceLocation.fromNamespaceAndPath(MoreLoreSeafoodSquids.MOD_ID, string));
+        return ResourceKey.create(Registries.ITEM, getResourceLocation(string));
+    }
+
+    public static ResourceLocation getResourceLocation(String string) {
+        return ResourceLocation.fromNamespaceAndPath(MoreLoreSeafoodSquids.MOD_ID, string);
     }
 
     public static void register() {

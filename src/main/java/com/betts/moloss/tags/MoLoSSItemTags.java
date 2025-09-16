@@ -10,17 +10,17 @@ import net.minecraft.world.item.Item;
 
 import java.util.concurrent.CompletableFuture;
 
-public class MoLoSSItemTags extends FabricTagProvider<Item> {
+public class MoLoSSItemTags extends FabricTagProvider.ItemTagProvider {
     public MoLoSSItemTags(FabricDataOutput output, CompletableFuture<HolderLookup.Provider> registriesFuture) {
-        super(output, Registries.ITEM, registriesFuture);
+        super(output, registriesFuture);
     }
 
     @Override
     protected void addTags(HolderLookup.Provider provider) {
-        getOrCreateTagBuilder(ItemTags.WOLF_FOOD)
+        valueLookupBuilder(ItemTags.WOLF_FOOD)
                 .add(MoLoSSItems.CALAMARI)
                 .add(MoLoSSItems.COOKED_CALAMARI);
-        getOrCreateTagBuilder(ItemTags.CAT_FOOD)
+        valueLookupBuilder(ItemTags.CAT_FOOD)
                 .add(MoLoSSItems.CALAMARI);
     }
 }
